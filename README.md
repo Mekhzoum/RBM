@@ -3,7 +3,22 @@
 A well-known technique used mainly for designing recommender systems is collaborative filtering. In this project, we’ll use the RBM algorithm to recommand for a random user a set of specified movies.
 
 ### What is RBM 
-xzz
+**Note**: A detailed explanation on RBMs can be found on the artcile review in the (XX).
+
+RBMs are two-layered artificial neural network with generative capabilities. They have the ability to learn a probability distribution over its set of input. RBMs were invented by Geoffrey Hinton and can be used for dimensionality reduction, classification, regression, collaborative filtering, feature learning and topic modeling.
+
+RBMs are a special class of Boltzmann Machines and they are restricted in terms of the connections between the visible and the hidden units. As stated earlier, they are a two-layered neural network (one being the visible layer and the other one being the hidden layer) and these two layers are connected by a fully bipartite graph. This means that every node in the visible layer is connected to every node in the hidden layer but no two nodes in the same group are connected to each other. This restriction allows for more efficient training algorithms than are available for the general class of Boltzmann machines, in particular the gradient-based contrastive divergence algorithm.
+
+A Boltzmann Machine             |  A Restricted Boltzmann Machine
+:-------------------------:|:-------------------------:
+<img src = "https://miro.medium.com/max/864/1*Ere0a83PN-Rj7DF5_IVZdg.png" width = "300">  |  <img src = "https://pathmind.com/images/wiki/multiple_inputs_RBM.png" width = "300">
+
+# Why use RBMs for recommendation?
+
+RBMs are unsupervised learning algorithms which try to **reconstruct** user input and in order to achieve this, they try to learn patterns from the examples in our data. This is then used to create a lower-dimensional representation of the pattern which can later be used to reconstruct approximations of the original input. Their ability to do this makes them a good fit for our problem because we need the algorithm to identify a pattern (the reading taste of a user) from the input and reconstruct it in the form of a score for each book (a rating essentially). This ultimately would help us in providing recommendations to that user based on the reconstructed scores.
+
+<center><img src = "https://miro.medium.com/max/2560/1*jaAbI77jDbLJcxaqS4t2BA.jpeg" width = "500"></center>
+
 
 ## Getting Started
 

@@ -1,2 +1,3 @@
-# Restricted Boltzmann Machines for Collaborative Filtering
+# Restricted Boltzmann Machines 
+# for Collaborative Filtering
 Restricted Boltzmann Machine 

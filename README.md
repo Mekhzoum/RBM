@@ -4,8 +4,8 @@ A well-known technique used mainly for designing recommender systems is collabor
 
 The implementation done was based on the article: https://www.cs.toronto.edu/~rsalakhu/papers/rbmcf.pdf
 
-### What is RBM 
-**Note**: A detailed explanation on RBMs for recommander systems can be found on our artcile review in (https://drive.google.com/file/d/1NLcUYhBUaEddT653zRbaUC_ddNuSPpzT/view).
+### What is RBM?
+**Note**: A detailed explanation on RBMs for recommander systems can be found on our artcile review in: https://drive.google.com/file/d/1NLcUYhBUaEddT653zRbaUC_ddNuSPpzT/view.
 
 RBMs are two-layered artificial neural network with generative capabilities. They have the ability to learn a probability distribution over its set of input. RBMs were invented by Geoffrey Hinton and can be used for dimensionality reduction, classification, regression, collaborative filtering, feature learning and topic modeling.
 

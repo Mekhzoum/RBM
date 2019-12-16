@@ -1,6 +1,7 @@
 # Restricted Boltzmann Machines for Collaborative Filtering
 
 A well-known technique used mainly for designing recommender systems is collaborative filtering. In this project, we’ll use the RBM algorithm to recommand for a random user a set of specified movies.
+The implementation done was based on the article: https://www.cs.toronto.edu/~rsalakhu/papers/rbmcf.pdf
 
 ### What is RBM 
 **Note**: A detailed explanation on RBMs can be found on the artcile review in the (XX).
@@ -41,47 +42,30 @@ who joined MovieLens in 2000.
 
 ### Installing
 
-To get the env running, you'll need the following packaged installed
+<img src = "https://img.shields.io/badge/requirements-compatible-blue.svg">
 
+- Python 3.6 and above
+- Pytorch
+- NumPy
+- Pandas
+- Matplotlib
 
-```
-Pip3 install numpy
-Pip3 install matplotlib
-Pip3 install pandas
-Pip3 install torch==1.3.1+cpu torchvision==0.4.2+cpu -f https://download.pytorch.org/whl/torch_stable.html
-```
+### Results
+#### Training Error Graph
+This graph was obtained on training the data for 50 epochs with a mini-batch size of 100:
+<img src = "https://i.ibb.co/pWnT1vS/Plot.png">
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+#### Recommendation for a random user
+As shown in the results, the algorithm ran smoothly and performed good recommendations for the random user, specifying a set of movies never seen by the random user, according to the collaborative filtering that we performed. For example, the user already saw the 4th movie. Thus, the system recommended that movie with a percentage of 100%, also the random user tends to watch drama and comedy movies a lot, and as seen in the results, the algorithm recommended similar genres of films, which means that the algorithm was well performed.
+<img src ="https://i.ibb.co/txLMM56/reco.png">
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* [Python](https://www.python.org/) - The language used
+* [Pytorch](https://pytorch.org/) - Deep learning package used 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License 
 
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 

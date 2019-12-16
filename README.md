@@ -65,8 +65,9 @@ As shown in the results, the algorithm ran smoothly and performed good recommend
 * [Python](https://www.python.org/) - The language used
 * [Pytorch](https://pytorch.org/) - Deep learning package used 
 
-## License
-
-This project is licensed under the MIT License 
-
+## References
+- Inspired from the idea presented in paper [Salakhutdinov, R., Mnih, A., & Hinton, G. (2007, June). Restricted Boltzmann machines for collaborative filtering](http://www.cs.utoronto.ca/~hinton/absps/netflixICML.pdf)
+- Additional Notes used for understanding
+  - [Gibbs Sampling (MCMC)](https://bayes.wustl.edu/Manual/RadfordNeal.review.pdf)
+  - [Contrastive Divergence learning](https://www.cs.toronto.edu/~hinton/absps/cdmiguel.pdf)
 

@@ -73,11 +73,11 @@ As shown in the results, the algorithm ran smoothly and performed good recommend
   
 ## Made by
 
-**Mekhzoum Hamza**
+- **Mekhzoum Hamza**
 
-**BOUSSOUF Omar**
+- **BOUSSOUF Omar**
 
-**HAMAMA Krimo**
+- **HAMAMA Krimo**
 
 ## License
 

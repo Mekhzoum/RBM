@@ -6,6 +6,11 @@ The implementation done was based on the article: https://www.cs.toronto.edu/~rs
 
 ### What is RBM 
 **Note**: A detailed explanation on RBMs for recommander systems can be found on the artcile review in (https://drive.google.com/file/d/1NLcUYhBUaEddT653zRbaUC_ddNuSPpzT/view).
+**This article review was done by**
+**Mekhzoum Hamza**
+**BOUSSOUF Omar**
+**HAMAMA Krimo**
+**based on multiple references, detailed explanations are in the article**
 
 RBMs are two-layered artificial neural network with generative capabilities. They have the ability to learn a probability distribution over its set of input. RBMs were invented by Geoffrey Hinton and can be used for dimensionality reduction, classification, regression, collaborative filtering, feature learning and topic modeling.
 

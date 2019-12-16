@@ -53,7 +53,7 @@ who joined MovieLens in 2000.
 
 ### Results
 #### Training Error Graph
-This graph was obtained on training the data for 50 epochs with a mini-batch size of 100:
+This graph was obtained on training the data for 50 epochs with a batch size of 10:
 <img src = "https://i.ibb.co/pWnT1vS/Plot.png">
 
 #### Recommendation for a random user

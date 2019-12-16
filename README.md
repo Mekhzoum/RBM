@@ -1,6 +1,7 @@
 # Restricted Boltzmann Machines for Collaborative Filtering
 
 A well-known technique used mainly for designing recommender systems is collaborative filtering. In this project, we’ll use the RBM algorithm to recommand for a random user a set of specified movies.
+
 The implementation done was based on the article: https://www.cs.toronto.edu/~rsalakhu/papers/rbmcf.pdf
 
 ### What is RBM 

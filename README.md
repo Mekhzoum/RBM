@@ -71,13 +71,6 @@ As shown in the results, the algorithm ran smoothly and performed good recommend
   - [Gibbs Sampling (MCMC)](https://bayes.wustl.edu/Manual/RadfordNeal.review.pdf)
   - [Contrastive Divergence learning](https://www.cs.toronto.edu/~hinton/absps/cdmiguel.pdf)
   
-## Made by
-
-- **MEKHZOUM Hamza**
-
-- **BOUSSOUF Omar**
-
-- **HAMAMA Krimo**
 
 ## License
 
